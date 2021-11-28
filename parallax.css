@@ -1,0 +1,194 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(39, 146, 228, 0.5);
+	position: fixed;
+}
+.cab_nav{
+	width: 100%;
+	padding: 20px;
+	text-align: right;
+	position: fixed;
+	top: 0px;
+}
+.cab_nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.cab_nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.nomb_logo{
+	width: 330px;
+	padding: 0px 20px;
+	float: left;
+	position: relative;
+	top: 5%;
+	left: 2%;
+	color: #fff;
+	font-size: 30px;
+}
+.logo_img{
+	width: 80px;
+	position: absolute;
+	transform: translateX(-1520%) translateY(-25%);
+}
+
+.fondo_p{
+	width: 100%;
+	height: 100vh;
+	background: url(imagenes/fondo2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fondo_p h1{
+	font-size: 60px;
+	color: #000;
+
+}
+
+.seccion_f{
+	max-width: 1100px;
+	width: 90%;
+	overflow: hidden;
+	margin: auto;
+	color: #000;
+	padding: 20px 0px;
+}
+.seccion{
+	background: url(imagenes/fondo3.jpeg);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+}
+.seccion h2, .seccion_1 h2{
+	font-size: 60px;
+	text-align: center;
+	padding: 400px 0px;
+	color: #000;	
+}
+.seccion_2 h2{
+	font-size: 60px;
+	text-align: center;
+	padding: 400px 0px;
+	color: white;
+}
+.titulos{
+	font-size: 35px;
+	text-align: center;
+	padding: 60px 0px;
+}
+.parrafos{
+	font-size: 20px;
+	padding: 20px;
+	text-align: justify;
+
+}
+
+/*Replicas*/
+.seccion_1{
+	background: url(imagenes/fondot1.jpg);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+}
+.seccion_2{
+	background: url(imagenes/estudiantes.jpg);
+	width: 100%;
+	height: 110vh;
+	background-position: center;
+	position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+}
+
+#container{
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 15px;
+	width: 500px;
+}
+#container ul{
+	background-color: #bbb;
+	list-style-position: outside;
+	list-style-type: disc;
+}
+#container ul li{
+	background-color: #ddd;
+}
+/*creación de tablas */
+
+#tablas{
+	margin: 150px auto;
+	width: 600px;
+}
+table{
+	background-color: green;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+video{
+	width: 100%;
+}
+
+.foot{
+	background-color: rgba(0, 0, 0, 1);
+	margin-top: 0%;
+	width: 100%;
+	padding: 20px 0px;
+	position: relative;
+}
+.foot_p{
+	color: #fff;
+	text-align: center;
+}
+.marca{
+	background-color: rgba(21, 88, 230, .5);
+}
