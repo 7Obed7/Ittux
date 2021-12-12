@@ -1,8 +1,10 @@
+/* Se empieza a poner los estilos en la página ayuda*/
 *{
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
 }
+/*Ponemos estilos para la cabecera*/
 header{
 	width: 100%;
 	height: 80px;
@@ -16,6 +18,7 @@ header{
 	position: fixed;
 	top: 0px;
 }
+/*Ponemos estilos para las listas*/
 .cab_nav ul li{
 	list-style: none;
 	display: inline-block;
@@ -29,6 +32,7 @@ header{
 	text-decoration: none;
 	color: white;
 }
+/*Ponemos estilos para el logo*/
 .nomb_logo{
 	width: 330px;
 	padding: 0px 20px;
